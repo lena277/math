@@ -1,23 +1,7 @@
 package edu.birzeit.math;
-/**
- * Class for simple  mathematical calculations.<br/>
- * implemented for in-class exercise
- * This package cannot accept String in the params
- *
- * @since 2018-11
- * @version 1.0
- */
+
 
 public class SimpleMath {
-
-    // CONSTANTS
-    // ------------------------------------------
-
-
-
-    // METHODS
-    // ------------------------------------------
-
 
     public static <T> T add_lena (T number1, T number2) {
 
