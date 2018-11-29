@@ -23,6 +23,19 @@ public class SimpleMath {
         return result;
 
     }
+
+    public static void main(String[]args){
+    System.out.print(factorial_lena(3));
+    }
+
+    public static double factorial_lena(double number)
+    {
+
+        if (number <= 1)
+            return 1;
+
+        return number * factorial_lena(number - 1);
+    }
     public static <T> T divide_lena (T number1, T number2) {
 
         T result = null;
